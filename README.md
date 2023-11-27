@@ -1,23 +1,39 @@
-<br><h1>💻 Sobre o projeto</h1>
-Med Voll é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
+# <p align="justify">💻 Sobre o projeto</p>
+Med Voll é uma APIRest de uma clínica médica. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
 
 
-<h3>⚙️ Funcionalidades</h3>
-CRUD de médicos;
-CRUD de pacientes;
-Agendamento de consultas;
-Cancelamento de consultas.
+## :hammer: Funcionalidades do projeto
 
-<h3>🎨 Layout</h3>
+- `Funcionalidade 1`: Cadastro de Médicos
+- `Funcionalidade 2`: Cadastro de Pacientes
+- `Funcionalidade 2a`: Agendamento de consultas
+- `Funcionalidade 3`: Cancelamento de consultas
+
+## Como rodar a aplicação :arrow_forward:
+
+## Pré-requisitos
+
+:warning: JAVA - MySQL
+
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto:
+```
+$ git clone https://github.com/MineiroDev/med-voll.git
+```
+Crie um banco de dados com o nome "vollmed_api" no seu Mysql
+
+## Deploy da Aplicação no Terminal :dash:
+
+```java -Dspring.profiles.active=prod -DDATASOURCE_URL=jdbc:mysql://localhost/vollmed_api -DDATASOURCE_USERNAME="seu usuario do mysql" -DDATASOURCE_PASSWORD="sua senha do mysql" -jar target/api-0.0.1-SNAPSHOT.jar```
+
+## 🎨 Layout
 O layout da aplicação mobile está disponível neste link: 
 
-<h3>🛠 Tecnologias</h3>
+## 🛠 Tecnologias
 As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
 
-Java 17
-Spring Boot 3
-Maven
-MySQL
-Hibernate
-Flyway
-Lombok</br>
+Java 17- Spring Boot 3 - Maven - MySQL - Hibernate - Flyway - Lombok
+
+
+<img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
