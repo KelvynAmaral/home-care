@@ -9,7 +9,6 @@ Med Voll é uma APIRest de uma clínica médica. O aplicativo deve possuir funci
 - `Funcionalidade 2a`: Agendamento de consultas
 - `Funcionalidade 3`: Cancelamento de consultas
 
-## Como rodar a aplicação :arrow_forward:
 
 ## Pré-requisitos
 
