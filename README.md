@@ -21,7 +21,7 @@ No terminal, clone o projeto:
 ```
 $ git clone https://github.com/MineiroDev/med-voll.git
 ```
-Crie um banco de dados com o nome "vollmed_api" no seu Mysql
+Crie um banco de dados com o nome "vollmed_api" no seu Mysql - create database vollmed_api;
 
 ## Deploy da Aplicação no Terminal :dash:
 
