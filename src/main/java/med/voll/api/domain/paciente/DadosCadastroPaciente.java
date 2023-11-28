@@ -21,4 +21,5 @@ public record DadosCadastroPaciente(
         String cpf,
 
         @NotNull @Valid DadosEndereco endereco) {
+
 }

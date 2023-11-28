@@ -17,4 +17,8 @@ public record DadosEndereco(
         String uf,
         String complemento,
         String numero) {
+
+        public DadosEndereco(String rua, String bairro, String cidade, String estado, String number) {
+                this(rua, bairro, null, cidade, estado, null, number);
+        }
 }
