@@ -1,5 +1,5 @@
 # <p align="justify">💻 Sobre o projeto</p>
-Med Voll é uma APIRest de uma clínica médica. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
+APIRest de um Home Care. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
 
 
 ## :hammer: Funcionalidades do projeto
@@ -18,21 +18,28 @@ Med Voll é uma APIRest de uma clínica médica. O aplicativo deve possuir funci
 
 No terminal, clone o projeto:
 ```
-$ git clone https://github.com/MineiroDev/med-voll.git
+$ git clone https://github.com/KelvynAmaral/home-care.git
 ```
-Crie um banco de dados com o nome "vollmed_api" no seu Mysql - create database vollmed_api;
+
+Crie um banco de dados com o nome "homecare_api" no seu Mysql:
+```
+create database homecare_api;
+```
 
 ## Deploy da Aplicação no Terminal :dash:
 
-```java -Dspring.profiles.active=prod -DDATASOURCE_URL=jdbc:mysql://localhost/vollmed_api -DDATASOURCE_USERNAME="seu usuario do mysql" -DDATASOURCE_PASSWORD="sua senha do mysql" -jar target/api-0.0.1-SNAPSHOT.jar```
+```
+java -Dspring.profiles.active=prod -DDATASOURCE_URL=jdbc:mysql://localhost/homecare_api -DDATASOURCE_USERNAME="seu usuario do mysql" -DDATASOURCE_PASSWORD="sua senha do mysql" -jar target/api-0.0.1-SNAPSHOT.jar
+```
 
-## 🎨 Layout
-O layout da aplicação mobile está disponível neste link: 
+
 
 ## 🛠 Tecnologias
-As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
+As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:  
 
-Java 17- Spring Boot 3 - Maven - MySQL - Hibernate - Flyway - Lombok
+<img align="center" alt="Kelvyn-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"> <img align="center" alt="Kelvyn-Spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"> <img align="center" alt="Kelvyn-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"> <img align="center" alt="Kelvyn-maven" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg"> <img align="center" alt="Kelvyn-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/hibernate/hibernate-original.svg">   
 
 
-<img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+
+<img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/> <a href = "mailto:kelvyn.candido@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelvyncandido/)
